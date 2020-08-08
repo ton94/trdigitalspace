@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html{margin:0; padding:0; overflow-x:hidden; background:#FFE4C4; }
+
+.main{width:100%;}
+
+header{width:100%; box-sizing:border-box; background:white; padding:20px; position:fixed; margin:0; text-align:center; z-index:999;}
+header, header *{transition: 0.25s ease-in-out;}
+header.shrinked{width:100%; box-sizing:border-box; background:white; padding:20px; position:fixed; margin:0; text-align:center; z-index:999;}
+.spacer{width:100%; box-sizing:border-box; background:white; padding:30px;}
+.spacer-tp{width:100%; box-sizing:border-box;  padding:5%; overflow:auto;}
+#logo{width:14%; cursor:pointer;}
+#lui{width:100%;}
+nav{width:100%; height:100%; max-height:200%; padding:100px; background:#95DBCD; position:fixed; background:#FFE4C4 url('../../thumb/surreal5.png') fixed; background-size:cover; box-sizing:border:box; z-index:5;}
+
+.btn{padding:10px; font-family:  'Quicksand', sans-serif; background:#95dbcd; border:1px solid #95dbcd; border-radius:10px; color:white; cursor:pointer;}
+.btn:hover{transition:0.25s ease-in-out; padding:10px; font-family:  'Quicksand', sans-serif; background:none; border:1px solid #95dbcd; border-radius:10px; color:#95dbcd; cursor:pointer;}
+
+.close:hover{padding:10px; font-family:  'Quicksand', sans-serif; background:#95dbcd; border:1px solid #95dbcd; border-radius:10px; color:white; cursor:pointer;}
+.close{position:fixed; margin-left: -90px; transition:0.25s ease-in-out; padding:10px; font-family:  'Quicksand', sans-serif; background:none; border:1px solid #95dbcd; border-radius:10px; color:#95dbcd; cursor:pointer;}
+
+.zpmi{margin-top:40px; width:100%; padding:100px; position:fixed; background:#44aaab; color:#FFA07A; display:none; z-index:1; overflow-y:auto; height:100%; box-sizing:border-box;}
+#scroll{width:5%; position:fixed; float:left; margin-left:-90px;}
+#scroll2{width:5%; position:fixed; float:left; margin-left:-90px;}
+.dg{margin-top:40px; width:100%; padding:100px; position:fixed; background:#FFA07A; display:none; z-index:1; overflow-y:auto; height:100%; box-sizing:border-box;}
+
+.zpmi::-webkit-scrollbar {
+    display:none;
+}
+
+.dg::-webkit-scrollbar {
+    display:none;
+}
+
+	
+
+
+#info{margin-top:-160px;}
+video{width:100%;}
+
+
+/*cols2*/
+.cell1{width:50%; padding:100px; float:left; background:#FFE4C4; background-size:cover;}
+.cell2{width:50%; padding:50px; float:left; background:black url('../../thumb/surreal2_2.png'); background-size:cover;}
+
+/*.cell12{width:50%; padding:300px; float:left; background:#7FFFD4;}
+.cell11{width:50%; padding:300px; float:left; background:#FFE4C4 url('../../thumb/surreal2_3.png'); background-size:cover;}*/
+
+.cell1con{width:50%;  float:left; text-align:center; font-family:  'Quicksand', sans-serif; color:white; font-weight:300;}
+.cell2con{width:50%;  float:left; text-align:center; font-family:  'Quicksand', sans-serif; color:white; font-weight:300;}
+
+h1, h2, h3{font-family:  'Quicksand', sans-serif; color:white; font-size:35pt; font-weight:300;}
+h4{font-family:  'Quicksand', sans-serif; color:white; font-weight:300;}
+a{text-decoration:none; color:white;}
+a:hover{color:#bdfff3; transition: ease-in-out 0.25s;}
+p{font-family:  'Quicksand', sans-serif; color:white; font-weight:300;}
+
+
+
+/*cols3*/
+.cell3{width:33.33%;  float:left; }
+.cell4{width:33.33%;  float:left; }
+.cell5{width:33.33%;  float:left; }
+
+/*cols4*/
+.cell6{width:24%; padding:0;  height:16.5em; margin-right:10px; margin-bottom:10px; float:left; background:black;}
+.cell7{width:24%; padding:0; height:16.5em; margin-right:10px; margin-bottom:10px; float:left; background:gray;}
+.cell8{width:24%; padding:0; height:16.5em; margin-right:10px; margin-bottom:10px;float:left; background:black;}
+.cell9{width:24%; padding:0; height:16.5em; margin-right:10px; margin-bottom:10px; float:left; background:gray;}
+
+#a{background:url('../../thumb/zpmig.png') center; background-size:cover;}
+#b{background:url('../../thumb/kaibiganlogo.png') center; background-size:cover;}
+#c{background:url('../../thumb/zpmiillust.png') center; background-size:cover;}
+#d{background:url('../../thumb/lsfts.png') center; background-size:cover;}
+#e{background:url('../../thumb/mim.png') center; background-size:cover;}
+#f{background:url('../../thumb/oneup.png') center; background-size:cover;}
+#g{background:url('../../thumb/books.png') center; background-size:cover;}
+#h{background:url('../../thumb/cagb.png') center; background-size:cover;}
+#i{background:url('../../thumb/eggillust.png')  center; background-size:cover;}
+#j{background:url('../../thumb/egg.png') center; background-size:cover;}
+#k{background:url('../../thumb/mw.png') center; background-size:cover;}
+#l{background:url('../../thumb/tsic.png') center; background-size:cover;}
+#m{background:url('../../thumb/vov.png') center; background-size:cover;}
+#n{background:url('../../thumb/ceucc.png') center; background-size:cover;}
+#o{background:url('../../thumb/wi1.png') center; background-size:cover;}
+#p{background:url('../../thumb/cshirt.png') center; background-size:cover;}
+#q{background:url('../../thumb/mw.png') center; background-size:cover;}
+
+
+.hover{opacity:0; cursor:pointer;}
+.hover:hover{opacity:1; background:#FFA07A; height:100%; padding-top:20px; transition:0.25s ease-in-out; cursor:pointer;}
+
+
+
+#webbtn{width:100%;  background: #4ac29a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4ac29a, #bdfff3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4ac29a, #bdfff3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding:70px; text-align:center; z-index:99; box-sizing:border:box; cursor:pointer;}
+  
+#webbtn:hover{background:url('../../thumb/surreal5.png')top; transition:0.25s ease;}
+#webbtn:active{background:url('../../thumb/surreal5.png')top;}
+
+  #dgbtn{width:100%; background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ padding:70px; text-align:center; box-sizing:border:box; cursor:pointer;}
+ 
+#dgbtn:hover{background:url('../../thumb/surreal5.png')top right; transition:0.25s ease;}
+#dgbtn:active{background:url('../../thumb/surreal5.png')top right;}
+
+hr{border-color:#bdfff3;  border-style:dashed;}
+#none{visibility:hidden;}
+
+
+.web{width:100%; background:#F0F8FF; padding:100px; text-align:center; display:none; box-sizing:border-box; overflow-y:auto;  overflow:auto;}
+.graphics{width:100%; background:#FAEBD7;  padding:100px; text-align:center; display:none; box-sizing:border-box; margin: auto; text-align:center; overflow:auto;}
+
+input[type=text]{width:90%; padding:20px; background:none; font-family:'Quicksand', sans-serif; font-weight:300;  border:none;}
+textarea{width:90%; padding:20px; height:200px; background:none; font-family:'Quicksand', sans-serif; font-weight:300;  border:none;}
+input[type=submit] {padding:10px 20px; background:none; border: 3px solid white; font-family:'Quicksand', sans-serif; font-weight:300;}
+input[type=submit]:hover{border-radius:20px; transition:0.25s ease-in-out; text-shadow:0px 0px 5px white;}
+input [type=submit]:active{background:none; border-radius:20px; transition: 0.25s ease-in-out;  box-shadow: 0px 0px 5px white; text-shadow:0px 0px 5px white;}
+
+input[type=text]:focus, input[type=submit]:focus, textarea:focus{ outline: none !important; }
+
+footer{width:100%; box-sizing:border-box; background:#95dbcd; padding:50px;  margin:0; text-align:center;}
+
+*:focus {outline:none !important}
+
+@media only screen and (max-width:480px){
+	.cell1con,.cell2con,.cell11,.cell12{width:100%; height:100%; padding:50%;}
+	.cell1con,.cell2con{width:100%; padding:0px;}
+	.cell1,.cell2{width:100%; padding:40px;}
+	nav{padding:50px; height:100%; max-height:200%; background:#FFE4C4 url('../../thumb/surreal5.png') center fixed; background-size:cover;}
+	h1{font-size:28pt;}
+	h3{font-size:28pt;}
+	#logo{width:50%;}
+	img{width:100%;}
+	
+	::-webkit-scrollbar {
+    display: none;
+    }
+	
+	#scroll{width:15%; position:fixed; float:left; margin-left:-90px;}
+    #scroll2{width:15%; position:fixed; float:left; margin-left:-90px;}
+	
+	video{width:100%;}
+	
+	.spacer-tp{padding:20%;}
+	
+	.cell3,.cell4,.cell5{width:100%;}
+	
+	.cell6,.cell7,.cell8,.cell9{width:100%; height:15em; }
+	.hover{opacity:0;}
+    .hover:hover{opacity:1; background:#FFA07A; padding-top:6%; padding-bottom:6%;}
+	.web,.graphics{padding:50px;}
+	.zpmi, .dg{padding: 50px 40px 50px 100px;}
+	
+}
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px){
+	.cell1con,.cell2con,.cell11,.cell12{width:100%; height:100%; padding:50%;}
+	.cell1con,.cell2con{width:100%; padding:0px;}
+	.cell1,.cell2{width:100%; padding:40px;}
+	nav{padding:50px; height:100%; max-height:200%; background:#FFE4C4 url('../../thumb/surreal5.png') center fixed; background-size:cover;}
+	h1{font-size:28pt;}
+	h3{font-size:28pt;}
+	#logo{width:35%;}
+	img{width:100%;}
+	
+	::-webkit-scrollbar {
+    display: none;
+    }
+	
+	#scroll{width:8%; position:fixed; float:left; margin-left:-90px;}
+#scroll2{width:8%; position:fixed; float:left; margin-left:-90px;}
+	
+	video{width:100%;}
+	
+	.spacer-tp{padding:20%;}
+	
+	.cell3,.cell4,.cell5{width:100%;}
+	
+	.cell6,.cell7,.cell8,.cell9{width:100%; height:15em; }
+	.hover{opacity:0;}
+    .hover:hover{opacity:1; background:#FFA07A; padding-top:6%; padding-bottom:6%;}
+	.web,.graphics{padding:50px;}
+	.zpmi, .dg{padding: 50px 40px 50px 100px;}
+	
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px){
+	.cell1con,.cell2con,.cell11,.cell12{width:100%; height:100%; padding:50%;}
+	.cell1con,.cell2con{width:100%; padding:0px;}
+	.cell1,.cell2{width:100%; padding:40px;}
+	nav{padding:50px; height:100%; max-height:200%; background:#FFE4C4 url('../../thumb/surreal5.png') center fixed; background-size:cover;}
+	h1{font-size:25pt;}
+	h3{font-size:25pt;}
+	#logo{width:25%;}
+	img{width:100%;}
+	
+	::-webkit-scrollbar {
+    display: none;
+    }
+	
+	#scroll{width:8%; position:fixed; float:left; margin-left:-90px;}
+	#scroll2{width:8%; position:fixed; float:left; margin-left:-90px;}
+	
+	video{width:100%;}
+	
+	.spacer-tp{padding:20%;}
+	
+	.cell3,.cell4,.cell5{width:100%;}
+	
+	.cell6,.cell7,.cell8,.cell9{width:31.7%; height:15em; }
+	.hover{opacity:0;}
+    .hover:hover{opacity:1; background:#FFA07A; padding-top:6%; padding-bottom:6%;}
+	.web,.graphics{padding:50px;}
+	.zpmi, .dg{padding: 50px 40px 50px 100px;}
+	
+}
+
+@media only screen and (max-width : 899px) and (min-width : 769px){
+	.cell1con,.cell2con,.cell11,.cell12{width:100%; height:100%; padding:50%;}
+	.cell1con,.cell2con{width:50%; padding:0px;}
+	.cell1,.cell2{width:100%; padding:40px;}
+	nav{padding:50px; height:100%; max-height:200%; background:#FFE4C4 url('../../thumb/surreal5.png') center fixed; background-size:cover;}
+	h1{font-size:25pt;}
+	h3{font-size:25pt;}
+	#logo{width:20%;}
+	img{width:100%;}
+	
+	::-webkit-scrollbar {
+    display: none;
+    }
+	
+	#scroll{width:8%; position:fixed; float:left; margin-left:-90px;}
+	#scroll2{width:8%; position:fixed; float:left; margin-left:-90px;}
+	
+	video{width:100%;}
+	
+	.spacer-tp{padding:20%;}
+	
+	.cell3,.cell4,.cell5{width:100%;}
+	
+	.cell6,.cell7,.cell8,.cell9{width:31.9%; height:15em; }
+	.hover{opacity:0;}
+    .hover:hover{opacity:1; background:#FFA07A; padding-top:6%; padding-bottom:6%;}
+	.web,.graphics{padding:50px;}
+	.zpmi, .dg{padding: 50px 40px 50px 100px;}
+	
+}
+
+@media only screen and (max-width : 1050px) and (min-width : 900px) {
+	.cell1con,.cell2con,.cell11,.cell12{width:100%; height:100%; padding:50%;}
+	.cell1con,.cell2con{width:50%; padding:0px;}
+	.cell1,.cell2{width:50%; padding:40px;}
+	nav{padding:50px; height:100%; max-height:200%; background:#FFE4C4 url('../../thumb/surreal5.png') center fixed; background-size:cover;}
+	h1{font-size:25pt;}
+	h3{font-size:25pt;}
+	#logo{width:20%;}
+	img{width:100%;}
+	
+	::-webkit-scrollbar {
+    display: none;
+    }
+	
+	#scroll{width:8%; position:fixed; float:left; margin-left:-90px;}
+	#scroll2{width:8%; position:fixed; float:left; margin-left:-90px;}
+	
+	video{width:100%;}
+	
+	.spacer-tp{padding:20%;}
+	
+	.cell3,.cell4,.cell5{width:100%;}
+	
+	.cell6,.cell7,.cell8,.cell9{width:31.9%; height:15em; }
+	.hover{opacity:0;}
+    .hover:hover{opacity:1; background:#FFA07A; padding-top:6%; padding-bottom:6%;}
+	.web,.graphics{padding:50px;}
+	.zpmi, .dg{padding: 50px 40px 50px 100px;}
+	
+}
+
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+	body{background:#FFE4C4;}
+	.cell1{width:50%; padding:83.6px; float:left; background:#FFE4C4;}
+	.cell2{width:50%; padding:45px; float:left; background:black url('../../thumb/surreal2_2.png'); background-size:cover;}
+	.cell6,.cell7,.cell8,.cell9{width:32.3%; height:15em; }
+}

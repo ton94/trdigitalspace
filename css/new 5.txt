@@ -1,0 +1,67 @@
+<img style="width:100%;" src="img/zionpcmobile.png">
+		<br><br>
+		<div class="cell3">
+
+<h2>Zion's Praise Music Inc.</h2>
+<h4>Responsive Web Design & Front End Dev.</h4>
+
+This is my 1st work in this field. I got this project when ZPMI hired me as their IT Assistant. They had a site before but they say it get hacked so I build a fresh new and more professional responsive website for the company. I was also involved in launching of the company's internal website but for students. Together with the company's I.T. Consultant, we develop an online resource for students which contains audios, videos and more teaching resources in connection with the lessons from the book from the company's music program/course offered to their partner schools and it's students. Note: Web layout & content in this site (live) is subject to change. Displayed here is the last update that I made for this site.<br><br>
+<button class="btn" target="_blank" onclick="window.open('https://musicforall.ph','_blank')">Visit Site</button><br><br><br><br>
+
+		</div>
+		<div class="cell4">	<h4>Company Background</h4>
+A music education company in the Philippines who have been partnering with several schools nationwide to provide applied music programs for its students. Visit them (See the site) at <a href="https://musicforall.ph"><b>musicforall.ph</b></a>. I work there as an IT Staff for 2 years.
+
+<h4>What I did here:</h4>
+- Responsive Web Design / Front-End Dev.<br>
+- Graphics & Illustrations<br>
+- Video Editing & Flash Animation<br>
+- PC & Hardware Troubleshooting<br>
+<br><br><br> </div>
+		
+		transform: scale(1.3);
+		
+		<h1>Front End Dev.| Web Design</h1>
+		<img style="width:100%;" src="img/illust2.png">
+		<br>
+		<div class="text"><h2>llust Template (For Sale)</h2>
+          <h4>Where to Buy: ASTemplates</h4>
+		  
+		   <button class="btn" target="_blank" onclick="window.open('http://preview.astemplates.com/itempreview/792','_blank')">Demo Preview</button>
+		  <button class="btn" target="_blank" onclick="window.open(' https://www.astemplates.com/website-template-details/792-illust','_blank')">Template Details</button>
+		  
+		  
+		  
+		  	<h1>Web Design</h1>
+		<img style="width:100%;" src="img/exito.png">
+			<div class="text"><h2>Exito Travel Website Redesign</h2>
+          <h4>Finalist, 99designs Exito Travel Website Redesign Contest </h4>
+		  
+		   <button class="btn " id="exitobtn">Click to Full Page Zoom</button>
+		
+		
+		
+		<h1>Web Design</h1>
+		<img style="width:100%;" src="img/pced.png">
+			<div class="text"><h2>PCED Website Redesign</h2>
+          <h4>Entry, 99designs PCED Website Redesign Contest </h4>
+		  
+		   <button class="btn" id="pcedbtn">Click to Full Page Zoom</button>
+		
+		
+		  <a class="w_highlight dtop" href="#contact">&equiv; Menu</a>
+		
+		$( ".home" ).click(function() {
+  $( "#front" ).slideToggle( "slow", function() {
+  });
+    $( ".popupzoom" ).hide( );
+	  $( ".popupzoomweb" ).hide( );
+	   $( "#web" ).hide( );
+	      $( "#digi" ).hide( );
+});
+
+
+<iframe src="https://www.youtube.com/embed/eiLOLqWcGVY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<script type="text/javascript" src="http://www.youtube.com/player_api"></script>

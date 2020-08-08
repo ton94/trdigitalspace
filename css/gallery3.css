@@ -1,0 +1,127 @@
+#wrap7{
+      overflow: hidden;
+    }
+    .box7 {
+      width: 26%;
+      padding-bottom: 26%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  margin-left:5px;
+	  margin-bottom:5px;
+    }
+	
+	
+    .innerContent7 {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      background: none;
+      padding:50px;
+    }
+
+	.box7:hover{ transition: 0.25s ease-in-out; mix-blend-mode:exclusion;}
+	
+/*---------------------------------*/
+
+/*folio1*/
+
+#worthy{background: url('../thumb/zpmig.png'); background-size:cover;}
+#books{background: url('../thumb/books.png'); background-size:cover;}
+#trumpet{background: url('../thumb/trumpet.png'); background-size:cover;}
+#logos{background: url('../thumb/zpmilogos.png'); background-size:cover;}
+#oneup{background: url('../thumb/oneup.png'); background-size:cover;}
+#kaibigan{background: url('../thumb/kaibiganlogo.png'); background-size:cover;}
+#spmckids{background: url('../thumb/spmckids.png'); background-size:cover;}
+#kbgpost{background: url('../thumb/kaibigan.png'); background-size:cover;}
+#mim{background: url('../thumb/mim.png'); background-size:cover;}
+#sea{background: url('../thumb/ss.png'); background-size:cover;}
+#lsfts{background: url('../thumb/lsfts.png'); background-size:cover;}
+#songlocal{background: url('../thumb/zpmiillust.png'); background-size:cover;}
+#songelem{background: url('../thumb/songelem.png'); background-size:cover;}
+#songhs{background: url('../thumb/songhs.png'); background-size:cover;}	
+#pmctrkidsnew{background: url('../thumb/nwpmctrkids.png'); background-size:cover;}	
+	
+	
+/*folio published*/	
+	
+#peste{background: url('../thumb/option1.png'); background-size:cover;}
+#igbalut{background: url('../thumb/igb.png'); background-size:cover;}
+#pili{background: url('../thumb/others.png'); background-size:cover;}	
+
+/*folio freelance*/	
+
+#decal{background: url('../thumb/tsicdecal.png'); background-size:cover;}
+#metlogo{background: url('../thumb/met.png'); background-size:cover;}
+#metshirtblue{background: url('../thumb/tsic.png'); background-size:cover;}	
+#metshirtblack{background: url('../thumb/metlogo_blackshirt.png'); background-size:cover;}
+#teamtsic{background: url('../thumb/teamtsic.png'); background-size:cover;}
+
+#shirtfront{background: url('../thumb/ceucc.png'); background-size:cover;}
+#shirtsleeve{background: url('../thumb/ceucc2.png'); background-size:cover;}
+#shirtback{background: url('../thumb/ceucc3.png'); background-size:cover;}	
+#poster2017{background: url('../thumb/ccbpost2017.png'); background-size:cover;}
+#poster2016{background: url('../thumb/ccbpost2016.png'); background-size:cover;}
+
+#exhilarate{background: url('../thumb/exhilarate.png'); background-size:cover;}
+#usone{background: url('../thumb/usone.png'); background-size:cover;}
+#worshipGodxpblue{background: url('../thumb/worshipGodxp.png'); background-size:cover;}	
+#worshipGodxpgold{background: url('../thumb/vov.png'); background-size:cover;}
+
+	
+	
+/*----------------------------------*/	
+	
+	
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box7 {
+      width: 50%;
+      padding-bottom: 50%;
+	  margin: auto;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box7 {
+      width: 30%;
+      padding-bottom: 30%;
+   }
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px) {
+   /* Tablet view: 2 tiles */
+   .box7 {
+      width: 30%;
+      padding-bottom: 30%;
+   }
+}
+
+ @media only screen and (max-width : 899px) and (min-width : 769px){
+ 
+ .box7 {
+      width: 60%;
+      padding-bottom: 60%;
+   }
+ }
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box7 {
+      width: 26%;
+      padding-bottom: 26%;
+   }
+   
+  
+   
+   
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box7 {
+      width: 26%;
+      padding-bottom: 26%;
+   }
+}

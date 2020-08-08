@@ -1,0 +1,441 @@
+@font-face{
+  font-family: cocobold;
+  src: url("fonts/CocoGothic-Bold_trial.ttf") 
+}
+
+@font-face{
+  font-family: sollight;
+  src: url("fonts/Solomon Sans Light.otf") 
+}
+
+@font-face{
+  font-family: solsemi;
+  src: url("fonts/Solomon Sans SemiBold.otf") 
+}
+
+#sidecontent{background:#072d27 url('../img/bg7.2.png') no-repeat; background-size:contain; width:95%; height:100%; float:right; padding:50px 100px 50px 100px;}
+#sidecontent2{background:#DF2935 url('../img/bg.png') fixed; background-size:cover; width:95%; height:100%; float:right;}
+
+#lui{width:100%;}
+#img2{width:90%; padding:20px 5px 5px 10px; vertical-align:middle; margin:auto; display:inline-block;}
+#logo{width:30%; }
+#pic{width:90%;}
+
+onmouseover{transition:0.25s ease-in-out;}
+onmouseout{ transition:0.25s ease-in-out;}
+
+#button3{border: 2px solid white; color:white; background:none;}
+#button3:hover{border-radius:20px; transition:0.25s ease-in-out;}
+
+a{text-decoration:none;}
+a:hover{ transition:0.25s ease-in-out; mix-blend-mode:exclusion;}
+
+#content{padding-left:120px;}
+
+.accord {
+  float: right;
+  width: 95%;
+  margin-top:0px;
+
+}
+/* Acordeon styles 1
+.tab {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+label {
+  position: relative;
+  display: block;
+  padding: 0px 0px 20px 0px;
+  background: #DF2935;
+  font-family: cocobold;
+  font-size:20pt;
+  font-weight: bold;
+  line-height: 3;
+  text-align:center;
+  cursor: pointer;
+}
+
+label:hover{ color:#442043; transition:0.25s ease-in-out;}
+
+
+.tab-content {
+  max-height: 100%;
+  overflow: hidden;
+  background: #1abc9c;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  background:url('../bg.png'); background-size:cover;
+  font-family: sollight;
+  
+}
+
+.tab-content p {
+  margin: 1em;
+}
+#cont1{padding: 40px 50px 20px 50px;}
+/*:checked 
+input:checked ~ .tab-content {
+  max-height: 10em;
+}
+/* Icon 
+label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+input[type=checkbox] + label::after {
+  content: "+";
+}
+input[type=radio] + label::after {
+  content: "\25BC";
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}*/
+
+
+img:hover #lui {background: #442043; content:'home';}
+
+img:hover{mix-blend-mode:exclusion;}
+
+
+
+/*a[title]:hover:after {
+  content: attr(title);
+  background:none;
+  font-family:sollight;
+  color:#ffd87c;
+  mix-blend-mode:exclusion;
+  text-align:center;
+  font-size:9pt;
+  transition:0.25s ease-in-out;
+  }
+*/
+  
+  i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+
+}
+
+
+
+
+
+button.accordion {
+    background:#ff5e4c;
+    color: white;
+	font-family:solsemi;
+	font-size:18pt;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	
+}
+
+  
+button.accordion:hover {
+    background:#75cca0;
+	color:white;
+	mix-blend-mode:none;
+}
+
+button.accordion.active{
+background:#ff5e4c;
+	color:#7bdeb1;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+
+div.panel {
+    padding: 0 5px;
+	width: 100%;
+	color:white;
+	font-size:12pt;
+	font-family:cocolight;
+	font-weight:400;
+    background: #DF2935 url('../img/bg.png') fixed;
+	background-size:cover;
+    max-height: 0;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	text-align:center;
+}
+div.panel:focus {
+    outline: none !important;
+}
+
+#text{padding:20px 20px 40px 70px;}
+
+#text a{text-decoration:none;}
+#text a:hover{font-family:cocobold;}
+
+#menulogo{width:10%; margin:auto; mix-blend-mode:exclusion; }
+
+div.panel.show {
+    opacity: 1;
+    max-height: 700px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+#p1{background:url('../thumb/tsicdecal.png') center; background-size:cover; padding-bottom:300px; margin-right:6px;}
+#p2{background:url('../thumb/teamtsic.png') center; background-size:cover; padding-bottom:300px; margin-right:6px;}
+#p3{background:url('../thumb/tsic.png') center; background-size:cover; padding-bottom:300px; margin-right:6px;}
+#p4{background:url('../thumb/met.png')center; background-size:cover;padding-bottom:300px; margin-right:6px;}
+#p5{background:url('../thumb/metlogo_blackshirt.png') center; background-size:cover; padding-bottom:300px; margin-right:6px;}
+
+
+
+#screenshots{padding:30px;}
+
+.item:hover{background-blend-mode:exclusion;}
+
+video{width:100%;}
+
+#headernxt{width:100%; text-align:center; }
+
+#p6{background:url('../thumb/ceucc.png') center; padding-bottom:300px; margin-right:6px;}
+#p7{background:url('../thumb/ceucc2.png') center; padding-bottom:300px; margin-right:6px;}
+#p8{background:url('../thumb/ceucc3.png') center; padding-bottom:300px; margin-right:6px;}
+#p9{background:url('../thumb/ccbpost2017.png') center; padding-bottom:300px; margin-right:6px;}
+#p10{background:url('../thumb/ccbpost2016.png') center; padding-bottom:300px; margin-right:6px;}
+
+#p11{background:url('../thumb/vov.png') center; padding-bottom:300px; margin-right:6px;}
+#p12{background:url('../thumb/worshipGodxp.png') center; padding-bottom:300px; margin-right:6px;}
+#p13{background:url('../thumb/exhilarate.png') center; padding-bottom:300px; margin-right:6px;}
+#p14{background:url('../thumb/usone.png') center; padding-bottom:300px; margin-right:6px;}
+
+#p15{background:url('../thumb/wi1.png') center; padding-bottom:300px; margin-right:6px;}
+#p16{background:url('../thumb/wi2.png') center; padding-bottom:300px; margin-right:6px;}
+#p17{background:url('../thumb/cshirt.png') center; padding-bottom:300px; margin-right:6px;}
+
+
+#p11:hover{ mix-blend-mode:exclusion;}
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.span_2_of_2 {
+	width: 100%;
+	color:white;
+	font-family:sollight;
+	padding:20px;
+	text-align:center;
+}
+.span_1_of_2 {
+	width: 49.2%;
+	color:white;
+	font-family:sollight;
+	padding:20px;
+	text-align:center;
+}
+
+#enter{display:none;}
+
+#picweb{width:100%;}
+
+#video{display:block;}
+#video2{display:none;}
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 480px){
+#sidecontent{width:100%; padding:40px;}
+#sidecontent2{width:100%;}
+
+video{width:100%; margin-top:120px;}
+ button.accordion{width:100%; float:left;}
+ #picm{width:100%;}
+ #enter{display:block;}
+#logo{width:90%; }
+.accord {
+  float: right;
+  width: 100%;
+  margin-top:0px;}
+#text{padding:30px;}
+
+div.panel {background: #DF2935 url('../img/bg.png') fixed; background-size:cover;}
+div.panel.show {
+    opacity: 1;
+    max-height: 2000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+	overflow-y:hidden;
+}
+#headernxt2{padding:50px 20px 20px 20px;}
+#picweb{width:100%;}
+
+#arrow{display:none;}
+
+.span_2_of_2, .span_1_of_2 { width: 100%; padding:10px; }	
+
+#video{display:none;}
+#video2{display:block; margin-top:-100px;}
+	
+}
+
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+
+#sidecontent{width:100%; padding:40px; }
+#sidecontent2{width:100%;}
+
+video{width:100%; margin-top:120px;}
+ button.accordion{width:100%; float:left;}
+ #picm{width:100%;}
+ #enter{display:block;}
+#logo{width:90%; }
+.accord {
+  float: right;
+  width: 100%;
+  margin-top:0px;}
+#text{padding:30px;}
+
+div.panel {background: #DF2935 url('../img/bg.png') fixed; background-size:cover;}
+div.panel.show {
+    opacity: 1;
+    max-height: 2000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+	overflow-y:hidden;
+}
+#headernxt2{padding:50px 20px 20px 20px;}
+#picweb{width:100%;}
+
+#arrow{display:none;}
+
+.span_2_of_2, .span_1_of_2 { width: 100%; padding:10px; }	
+
+#video{display:none;}
+#video2{display:block; margin-top:-100px;}
+
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px) {
+
+   #sidecontent{width:100%; padding:40px; }
+#sidecontent2{width:100%;}
+
+video{width:100%; margin-top:120px;}
+ button.accordion{width:100%; float:left;}
+ #picm{width:100%;}
+ #enter{display:block;}
+#logo{width:90%; }
+.accord {
+  float: right;
+  width: 100%;
+  margin-top:0px;}
+#text{padding-left:30px; padding-right:30px; padding-top:30px; padding-bottom:60px;}
+
+div.panel {background: #DF2935 url('../img/bg.png') fixed; background-size:cover;}
+div.panel.show {
+    opacity: 1;
+    max-height: 2000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+	overflow-y:hidden;
+}
+#headernxt2{padding:50px 20px 20px 20px;}
+#picweb{width:100%;}
+
+#arrow{display:none;}
+
+.span_2_of_2, .span_1_of_2 { width: 100%; padding:10px; }	
+
+#video{display:none;}
+#video2{display:block; margin-top:-100px;}
+}
+
+
+@media only screen and (max-width : 899px) and (min-width : 769px){
+ 
+  #sidecontent{ width:100%; padding:70px; }
+  
+  button.accordion{width:100%; float:left;}
+  .accord {
+  float: right;
+  width: 100%;
+  margin-top:0px;}
+  
+  #text{padding-left:80px; padding-bottom:30%; text-align:center;}
+  
+  #logo{width:50%; }
+  
+  div.panel {background: #DF2935 url('../img/bg.png') fixed; background-size:cover;}
+  div.panel.show {
+    opacity: 1;
+    max-height: 2000px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+	overflow-y:hidden;
+   }
+
+ }
+
+@media only screen and (min-width : 1400px){
+	 div.panel.show {
+    opacity: 1;
+    max-height: 1000px; 
+    }
+	
+	div.panel{height:850px;}
+ }

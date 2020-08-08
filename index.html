@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/trstylenew_2019.css">
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+ <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" />
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+
+   
+   
+</head>
+<body>
+<header class="header"><img class="trlogo" src="img/trds_logo_flat.png">
+<div class="nav_container">
+<a class="nav" href="web.html">Web Design & Development</a>
+<a class="nav" href="digital.html">Graphics & Illustration</a>
+<a class="nav" href="video.html">Video</a>
+<a class="nav aboutbtn" >About</a>
+<a class="nav" href="shop.html">Shop</a>
+</div>
+</header>
+
+<section class="homebanner">
+
+    <div class='desktop'>
+	<div class="single-item slider">
+        <div class="center" style="text-align:center;">
+		<a href="#"><img  style="width:100%;" src="img/banner_new_sample_2_full.png"></a>	
+        </div>
+		
+		
+        <div class="center" style="text-align:center;">
+		<img style="width:100%;" src="img/banner_new_sample3_full.png">	
+		  </div>
+		  
+	</div>	  
+    </div>	
+	
+	<div class='mobile'>
+	<div class="single-item slider">
+        <div class="center" style="text-align:center;">
+		<a href="#"><img style="width:100%;" src="img/mb1.png"></a>	
+        </div>
+		
+		
+        <div class="center" style="text-align:center;">
+		<img style="width:100%;" src="img/mb2.png">	
+		  </div>
+			
+    </div>	
+    </div>
+</section>
+
+<section class="about">
+
+<h1>About</h1>
+ <p>
+ Hi Im Toni and currently Im a Freelance Web and Graphic Designer & Wordpress Developer.<br><br>
+
+<div class="cell1con">
+ <h1>Skills</h1>
+ Can work in a wide range of media like the ff.:<br>
+ - Web Design & Development (Front-End) (with knowledge/can code HTML, CSS, Jquery/Jscript(Basic/Beginner), and PHP (Basic/Beginner), Responsive Web design)<br>
+- Graphic Design & Illustration<br>
+- Video Editing & Flash Animation<br>
+- Computer Hardware/Software Troubleshooting <br><br>
+</div>
+<div class="cell2con">
+<h1>Services</h1>
+Currently offering:<br><br>
+- Graphic Design<br>
+- Web Design<br>
+- Web Development (Pure HTML5 Coded or Wordpress)<br>
+- Video Editing<br><br>
+Contact me for a Quote.
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+
+
+
+ 
+ <H1>Contact</h1>
+     <form method="POST" name="contactform" action="contact-form-handler.php"> 
+
+		<input type="text" name="name" placeholder="Name...">
+		<input type="text" name="email" placeholder="Email...">
+		<textarea name="message" placeholder="Subject/Message..."></textarea><br>
+		<input type="submit" value="Send" onClick="alert('Thank you for submitting!')">
+		</form>
+
+		<script language="JavaScript">
+		// Code for validating the form
+		// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+		// for details
+		var frmvalidator  = new Validator("contactform");
+		frmvalidator.addValidation("name","req","Please provide your name"); 
+		frmvalidator.addValidation("email","req","Please provide your email"); 
+		frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+		</script>
+		<!--
+		Sample code from:
+		http://www.html-form-guide.com/contact-form/php-email-contact-form.html
+		-->
+		<p><b>Please contact me via email sns.fb.toni@gmail.com/trdigitalspace@gmail.com or messenger @tonrose04. This contact form is not working in github (doesn't run php scripts).</b></p>
+
+         <br><br><br><br>
+
+</section>
+
+
+ <script>
+$(document).scroll(function() {
+  if ($(this).scrollTop() > 300) { 
+    $('.header').addClass('scrolling');
+  } else {
+    $('.header').removeClass('scrolling');
+  }
+  
+  
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".trlogo").click(function(){
+$(".nav_container").slideToggle();
+});
+
+
+$(function() {
+    $( ".aboutbtn" ).on( "click", function() { 
+	  $( ".about" ).slideToggle( "slow", function(){
+			if ($(this).is(":visible")) { 
+				$('html,body').animate({ 
+					scrollTop: $(this).offset().top - 25 
+				}, "slow")
+			}
+		});
+	  return false; 
+	});
+});
+
+});
+</script>
+
+
+	  <script type="text/javascript">
+        $(document).on('ready', function () {
+            $(".single-item").slick({
+	        dots: false,
+			arrows:false,
+			autoplay:true,
+            autoplaySpeed:3000,
+			fade: true,
+			mobileFirst: true,
+			responsive:true,
+			adaptiveHeight: true
+            });
+
+		
+        });
+  </script>
+
+</body>
+</html>

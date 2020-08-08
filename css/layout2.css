@@ -1,0 +1,384 @@
+@font-face{
+  font-family: cocobold;
+  src: url("fonts/CocoGothic-Bold_trial.ttf") 
+}
+
+@font-face{
+  font-family: sollight;
+  src: url("fonts/Solomon Sans Light.otf") 
+}
+
+@font-face{
+  font-family: cocoultralight;
+  src: url("fonts/CocoGothic-UltraLight_trial.ttf") 
+}
+
+@font-face{
+  font-family: cocolight;
+  src: url("fonts/CocoGothic-Light_trial.ttf") 
+}
+
+
+html, body,.container{margin: 0 auto; overflow-x:hidden;}
+
+p{display:inline; }
+.controlall{display:inline; }
+.control{display:inline-block; }
+#sidenav{background:#014043; width:5%; height:100%; float:left; color:white; position:fixed; text-align:middle; vertical-align:middle; margin:auto; padding:5px 5px 5px 5px;}
+#sidenav2{display:none; background:#014043; width:15%; height:100%;  color:white; position:fixed; font-family:sollight; text-align:middle; vertical-align:middle; margin-left:65px; padding:5px 5px 5px 5px; z-index:1;}
+#sidenav:hover{background:#014043;}
+
+
+.contact{background:none; color:white; border:none; margin-left:}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+	background:linear-gradient(#000012, #03161c, #072d27);
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background:rgba(96,96,96, 0.5);
+  border-radius:20px;
+  
+}
+
+a{text-decoration:none;}
+
+
+ul{margin-top:37px;}
+
+li{list-style:none; padding:21px; }
+
+#sidenav:hover + #sidenav2 {
+display: block;
+transition: 10s linear width;
+transition-delay:15s;
+
+}
+
+h1{
+color:#DD2234;
+font-family:cocoultralight;
+font-size:70pt;
+}
+
+h1#two{
+color:#f8a379;
+font-family:cocoultralight;
+font-size:70pt;
+}
+
+h2{
+color:#fb6b65; 
+font-family:cocolight;
+font-size:20pt;
+}
+
+
+
+p{color:white; font-family:sollight;}
+
+.controlh{display:inline;}
+
+
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: #014043;
+  transition: opacity .25s ease;
+  z-index:999999;
+}
+
+.contnt{padding:30px; background:#014043;}
+
+.menubox{background:#014043; width:100%;  text-align:center; margin:auto; display:inline-block; padding:30px;}
+
+ul .nav1{margin-top:0px;}
+
+li .nav2{list-style-position: inside;}
+
+#mobinav{ background:none; width:100%;  color:white;  font-family:sollight; text-align:center; display:inline; }
+
+
+
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
+.modal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #fff;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 50%;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+
+.btn {
+  cursor: pointer;
+  background: #27ae60;
+  display: inline-block;
+  padding: .5em 1em;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #2ecc71;
+}
+
+.btn:active {
+  background: #27ae60;
+  box-shadow: 0 1px 2px rgba(0,0,0, .2) inset;
+}
+
+.btn--blue {
+  background: #2980b9;
+}
+
+.btn--blue:hover,
+.btn--blue:focus {
+  background: #3498db;
+}
+
+.btn--blue:active {
+  background: #2980b9;
+}
+
+
+.icon {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+
+  button.menumobile {
+    background:none;
+    color: #23c97e;
+	font-family:cocolight;
+	font-size:16pt;
+    cursor: pointer;
+	display:inline;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+button.menumobile:hover {
+  
+	color:#DF2935;
+	mix-blend-mode:vivid-light;
+}
+
+button.menumobile.active{
+
+	color:#23c97e;
+}
+
+.toogle-menu{display:none;}
+
+
+@media only screen and (max-width : 480px){
+#sidenav, #sidenav2{display:none;}
+
+.toogle-menu{
+	display:block;
+    position:absolute;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	opacity:1;
+	z-index:999;
+}
+
+
+
+}
+
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+
+#sidenav, #sidenav2{display:none;}
+
+.toogle-menu{
+	display:block;
+    position:absolute;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	opacity:1;
+	z-index:999;
+}
+
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px) {
+
+#sidenav, #sidenav2{display:none;}
+
+.toogle-menu{
+	display:block;
+    position:absolute;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	opacity:1;
+	z-index:999;
+}
+
+}
+
+
+@media only screen and (max-width : 899px) and (min-width : 769px){
+ 
+    #sidenav, #sidenav2{display:none;}
+ 
+   .toogle-menu{
+	display:block;
+    position:absolute;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	opacity:1;
+	z-index:999;
+    }
+
+ }
+
+
+
+
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+
+li{list-style:none; text-align:left; padding:13px;}
+
+#sidenav2{
+display:none; 
+background:#442043; 
+width:18%; 
+height:100%;  
+color:white; 
+position:fixed; 
+font-family:sollight; 
+text-align:middle; 
+vertical-align:middle; 
+margin-left:50px; 
+z-index:1;}
+
+}
+
+
+
+
+
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+
+ul{margin-top:37px;}
+
+li{list-style:none; text-align:left; padding:18.5px;}
+
+#sidenav2{
+display:none; 
+background:#442043; 
+width:16%; 
+height:100%;  
+color:white; 
+position:fixed; 
+font-family:sollight; 
+text-align:middle; 
+vertical-align:middle; 
+margin-left:60px; 
+z-index:1;}
+
+}
+
+ @media only screen and (min-width : 1400px){
+	 
+	 ul{margin-top:38px;}
+
+    li{list-style:none; padding:23px; }
+	 
+ }

@@ -1,0 +1,153 @@
+@font-face{
+  font-family: sollight;
+  src: url("fonts/Solomon Sans Light.otf") 
+}
+
+@font-face{
+  font-family: solsbold;
+  src: url("fonts/Solomon Sans SemiBold Italic.otf") 
+}
+
+b{font-family:solsbold;}
+
+#wrap {
+      overflow: visible;
+	  margin-top:-500px;
+    }
+    .box {
+      width: 23%;
+      padding-bottom: 25%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  margin-left:10px;
+	  margin-bottom:5px;
+    }
+	
+	
+	.box:hover{transition:0.25s ease-in-out; border-left:5px solid white; }
+	
+    .innerContent {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      background: none;
+      padding:50px;
+	  font-family:sollight;
+	  text-align:left;
+    }
+	
+	
+/*---------------------------------*/
+
+#web{background:none;}
+#zpmiweb{background:none;}
+#trfolioold{background:none;}
+#exito{background:none;}
+	
+	
+/*----------------------------------*/	
+
+@media only screen and (max-width : 320px){
+
+   .box {
+      width: 100%;
+      padding-bottom: 70%;
+	  margin: auto;
+	  
+   }
+   
+   .box:hover{border-left:none;}
+
+}
+
+@media only screen and (max-width : 360px) and (min-width : 321px){
+
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+	  margin: auto;
+	  
+   }
+   
+   .box:hover{border-left:none;}
+
+}
+	
+@media only screen and (max-width : 480px) and (min-width : 361px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+	  margin: auto;
+	  
+   }
+   
+   
+}	
+	
+	
+	
+@media only screen and (max-width : 480px) and (min-width : 361px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 70%;
+	  margin: auto;
+	  
+   }
+   
+   
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 100%;
+      padding-bottom: 50%;
+	  margin: auto;
+	  
+   }
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+	  margin: auto;
+   }
+   
+  
+}
+
+ @media only screen and (max-width : 899px) and (min-width : 769px){
+ 
+ .box {
+      width: 50%;
+      padding-bottom: 30%;
+	  margin: auto;
+   }
+   
+  
+ }
+
+@media only screen and (max-width : 1050px) and (min-width : 900px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 26%;
+      padding-bottom: 26%;
+   }
+   
+  
+   
+   
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 26%;
+      padding-bottom: 26%;
+   }
+}
